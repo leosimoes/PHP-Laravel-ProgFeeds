@@ -24,6 +24,14 @@ and verify execution in the browser.
 Add the project directory to the Sites section in Laravel Heard if necessary.
 
 
+## Development
+1. Create home page:
+- In **resources/views**: create the file *home.blade.php* for the home page.
+- In **routes/web.php**: map the route *"/laravel"* to the *welcome* page and the route *"/"* to the *home* page.
+
+![Image-05-Home](images/Image-05-Home-1.png)
+
+
 ## References 
 Laravel - Getting Started:
 https://laravel.com/learn/getting-started-with-laravel

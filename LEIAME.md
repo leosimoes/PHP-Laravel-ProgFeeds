@@ -24,6 +24,14 @@ e verifique a execução no navegador.
 Adicione o diretório do projeto na seção de Sites no Laravel Herd caso seja necessário.
 
 
+## Desenvolvimento
+1. Criar página home:
+- Em **resources/views**: criar arquivo *home.blade.php* para a página home.
+- Em **routes/web.php**: mapear a rota *"/laravel"* para a página *welcome* e a rota *"/"* para a página *home*. 
+
+![Image-05-Home](images/Image-05-Home-1.png)
+
+
 ## Referências
 Laravel - Getting Started:
 https://laravel.com/learn/getting-started-with-laravel
