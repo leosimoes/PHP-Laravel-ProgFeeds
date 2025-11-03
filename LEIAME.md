@@ -7,6 +7,8 @@ As ferramentas e suas versões utilizados no desenvolvimento foram:
 - Laravel Heard 1.22.3
 - PHP Storm 2025.2.4
 
+![Image-04-PhpStorm](images/Image-04-PhpStorm.png)
+
 Verifique as versões do PHP e Laravel installer com `php -v` e `laravel -v` no terminal/cmd.
 
 ![Image-01-cmd](images/Image-01-cmd.png)
