@@ -31,6 +31,18 @@ Adicione o diretório do projeto na seção de Sites no Laravel Herd caso seja n
 
 ![Image-05-Home](images/Image-05-Home-1.png)
 
+2. Criar `ProgFeedsController`:
+* Em **app/Http/Controllers**: New -> Laravel -> Controller e "ProgFeeds"
+
+![Image-06-ProgFeedsController](images/Image-06-ProgFeedsController-Create-1.png)
+
+![Image-07-ProgFeedsController](images/Image-07-ProgFeedsController-Create-2.png)
+
+* Em **app/Http/Controllers/ProgFeedsController**: implemente o método index para retornar a view *home*.
+
+* Em **app/routes/web.php**: substituir a função de callback pelo referência da classe `ProgFeedsController` e seu 
+método index: `Route::get('/', [ProgFeedsController::class, 'index']);`
+
 
 ## Referências
 Laravel - Getting Started:

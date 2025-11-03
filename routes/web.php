@@ -6,6 +6,4 @@ Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [ProgFeedsController::class, 'index']);

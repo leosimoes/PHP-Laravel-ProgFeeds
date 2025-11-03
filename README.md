@@ -31,6 +31,18 @@ Add the project directory to the Sites section in Laravel Heard if necessary.
 
 ![Image-05-Home](images/Image-05-Home-1.png)
 
+2. Create `ProgFeedsController`:
+
+* In **app/Http/Controllers**: New -> Laravel -> Controller and "ProgFeeds"
+
+![Image-06-ProgFeedsController](images/Image-06-ProgFeedsController-Create-1.png)
+
+![Image-07-ProgFeedsController](images/Image-07-ProgFeedsController-Create-2.png)
+
+* In **app/Http/Controllers/ProgFeedsController**: implement the index method to return the *home* view.
+* In **app/routes/web.php**: replace the callback function with a reference to the `ProgFeedsController` class and 
+its index method: `Route::get('/', [ProgFeedsController::class, 'index']);`
+
 
 ## References 
 Laravel - Getting Started:
